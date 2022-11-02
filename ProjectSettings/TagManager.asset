@@ -3,7 +3,30 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - MinimapCamera
+  - Fire
+  - InventorySlot
+  - EquipmentSlot
+  - DragAndDropHandler
+  - LootSlot
+  - CraftingIngredientSlot
+  - CraftingResultSlot
+  - Alarm
+  - MainLight
+  - Fader
+  - Enemy
+  - AlarmLight
+  - Ladder
+  - HotbarSlot
+  - WeaponCamera
+  - Water
+  - StorageSlot
+  - Monster
+  - SkillbarSlot
+  - SkillsSlot
+  - QuestLocation
+  - NpcSellSlot
   layers:
   - Default
   - TransparentFX
@@ -13,18 +36,18 @@ TagManager:
   - UI
   - 
   - 
+  - Player
+  - Monster
+  - Npc
+  - ItemDrop
+  - Door
+  - Ladder
+  - Fence
+  - NoDepthInFirstPerson
+  - DamageArea
+  - AggroArea
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - ItemModel
   - 
   - 
   - 

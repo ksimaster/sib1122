@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa99cbcb882d44b2984928ebe183fb04, type: 3}
+  m_Name: Crossbow
+  m_EditorClassIdentifier: 
+  maxStack: 1
+  buyPrice: 10
+  sellPrice: 5
+  sellable: 1
+  toolTip: 'A wooden Crossbow
+
+
+    {DAMAGE} Damage
+
+    Fire Interval: {COOLDOWN}s
+
+
+    Price: {BUYPRICE} Gold
+
+    <i>Sells for: {SELLPRICE} Gold</i>'
+  image: {fileID: 21300000, guid: 7cec96bd0423f4b259ea1a3637a81b70, type: 3}
+  drop: {fileID: 114812546439872524, guid: 0595c28dd0bdc4ed8aea1aaf6d4551ca, type: 3}
+  keepUsingWhileButtonDown: 1
+  successfulUseSound: {fileID: 8300000, guid: 7bd0226af291f4dbeaf942f9688f281c, type: 3}
+  failedUseSound: {fileID: 0}
+  emptySound: {fileID: 8300000, guid: ec23e1a48dac948af84be6a6ed7b5cc7, type: 3}
+  cooldown: 1
+  shoulderLookAtWhileHolding: 1
+  modelPrefab: {fileID: 1985459411927944, guid: c5bb501ae1ca243ba87ff842a7d1f95b,
+    type: 3}
+  category: RightHand
+  healthBonus: 0
+  manaBonus: 0
+  damageBonus: 0
+  defenseBonus: 0
+  attackRange: 20
+  damage: 10
+  upperBodyAnimationParameter: UPPERBODY_CROSSBOW
+  requiredAmmo: {fileID: 11400000, guid: 701122636f88142d0a1385e1f61fc666, type: 2}
+  zoom: 20
+  recoilHorizontal: 0
+  recoilVertical: 0
+  projectile: {fileID: 114528146157462722, guid: 01b5488703f354537b7e11a6b8dac449,
+    type: 3}

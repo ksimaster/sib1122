@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 104083b3c48f94d779833799a5a81b47, type: 3}
+  m_Name: DiegoDialogue
+  m_EditorClassIdentifier: 
+  welcomeText: 'Hello Stranger!
+
+
+    Can you help me build a boat?'
+  quests:
+  - {fileID: 11400000, guid: b91f58f002fd0416db8887a53aa25cda, type: 2}
+  - {fileID: 11400000, guid: abb9b9bed14f148e691927581e36544c, type: 2}
+  - {fileID: 11400000, guid: 32f29fa3b6df64014bb0444be2238b7d, type: 2}
+  tradeText: Trade
+  closeText: Close
