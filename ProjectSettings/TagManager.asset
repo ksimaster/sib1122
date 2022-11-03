@@ -3,14 +3,40 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - AbilityPickup
+  - Damageable
+  - Enemy
+  - Walkable
+  - Weapon
+  - Environment
+  - Fire
+  - TerrainBridge
+  - PowerUp
+  - Fruit
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Walkable
   - Water
   - UI
+  - GroundCheck
+  - Terrain
+  - FireLayer
+  - Player
+  - Enemy
+  - Crystal
+  - Tree
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - MinimapIcons
   - 
   - 
   - 
@@ -21,22 +47,7 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - MainMenu
   m_SortingLayers:
   - name: Default
     uniqueID: 0

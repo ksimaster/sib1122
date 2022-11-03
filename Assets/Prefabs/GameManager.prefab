@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8257945831418916894
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8257945831418916890}
+  - component: {fileID: 8257945831418916893}
+  - component: {fileID: 8236736784404236431}
+  - component: {fileID: 7986550363708548822}
+  - component: {fileID: 8108481348631420129}
+  - component: {fileID: 8250716618195528625}
+  - component: {fileID: 2001327028466082264}
+  - component: {fileID: 4847195641392796058}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8257945831418916890
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8257945831418916894}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8257945831418916893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8257945831418916894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf1118146921b8445b2caf936efcb78d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingState: 10
+  globalMaxVolume: 1
+--- !u!114 &8236736784404236431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8257945831418916894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92fad0acc333f874a82ea1818508d5dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  managedState: 10
+  managedSceneName: MainMenu
+  optionalSceneAudioClip: {fileID: 8300000, guid: 86776336db580a84a8c0129947706ebe, type: 3}
+  sceneAudioClipNormalizedMaxVolume: 1
+  debugOutput: 0
+  heartbeatRate: 0
+  mainNewGameRootName: MainNewGame
+  mainExitRootName: MainExitGame
+--- !u!114 &7986550363708548822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8257945831418916894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7f4775787fb60a43945a2bd0cd4abce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  managedState: 20
+  managedSceneName: NewGame
+  optionalSceneAudioClip: {fileID: 8300000, guid: 4d70b639337f1d046b127a955d96776a, type: 3}
+  sceneAudioClipNormalizedMaxVolume: 0.3
+  debugOutput: 0
+  heartbeatRate: 0
+  skipCrawl: 0
+  timeScale: 1
+--- !u!114 &8108481348631420129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8257945831418916894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7009ed50006746f4991fce20f7be30d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  managedState: 21
+  managedSceneName: Training
+  optionalSceneAudioClip: {fileID: 8300000, guid: 86776336db580a84a8c0129947706ebe, type: 3}
+  sceneAudioClipNormalizedMaxVolume: 0.315
+  debugOutput: 0
+  heartbeatRate: 0
+  trainingHostVirtualCameraName: TrainingHostVirtualCamera
+  enemyVirtualCameraName: EnemyVirtualCamera
+  crystalVirtualCameraName: CrystalVirtualCamera
+  beaconVirtualCameraName: BeaconVirtualCamera
+  playerCameraName: 3rdPersonCamera
+  playerModelGameObjectRootName: PlayerModel
+  triggerPlaneGameObjectName: TriggerPlane
+  dialogueCanvasName: TreeSpiritDialogueCanvas
+  beaconLandAudio: {fileID: 0}
+--- !u!114 &8250716618195528625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8257945831418916894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a04a30576ba567741a3c8fa1b2f203a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  managedState: 30
+  managedSceneName: Level1TestGameLoop
+  optionalSceneAudioClip: {fileID: 8300000, guid: f07d5ab95b4acd14b9a6847e81667f46, type: 3}
+  sceneAudioClipNormalizedMaxVolume: 0.15
+  debugOutput: 0
+  heartbeatRate: 0
+  playerGameObjectRootName: Player
+  beaconParentObjectRootName: BeaconAndPowerUpParent
+  returnToMainMenuCountdownLength: 10
+--- !u!114 &2001327028466082264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8257945831418916894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7739837c911b42c4e85765182adc4bf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 0}
+--- !u!95 &4847195641392796058
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8257945831418916894}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
