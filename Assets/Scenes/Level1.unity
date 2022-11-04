@@ -2229,6 +2229,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -1538112130698044685, guid: 7eea6a0637404214d8aed0f0fb2567c2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.551
+      objectReference: {fileID: 0}
+    - target: {fileID: -1538112130698044685, guid: 7eea6a0637404214d8aed0f0fb2567c2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.912
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7eea6a0637404214d8aed0f0fb2567c2, type: 3}
       propertyPath: m_Name
       value: Retro-Room_v3
