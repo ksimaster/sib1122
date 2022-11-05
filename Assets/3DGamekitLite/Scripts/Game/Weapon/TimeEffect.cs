@@ -12,7 +12,7 @@ namespace Gamekit3D
 
         void Awake()
         {
-            m_Animation = GetComponent<Animation>();
+          m_Animation = GetComponent<Animation>();
 
             gameObject.SetActive(false);
         }
