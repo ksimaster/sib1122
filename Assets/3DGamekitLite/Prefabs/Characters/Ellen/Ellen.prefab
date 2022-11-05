@@ -16369,6 +16369,7 @@ GameObject:
   - component: {fileID: 114603677736913854}
   - component: {fileID: 114579421511091938}
   - component: {fileID: 114166992771378430}
+  - component: {fileID: 912151737826904122}
   m_Layer: 9
   m_Name: Ellen
   m_TagString: Untagged
@@ -16599,6 +16600,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   arcsCount: 12
+--- !u!114 &912151737826904122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1991219941496362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ad79a71ec841f241aa83403127604b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PanelDeath: {fileID: 1991646998098166}
 --- !u!1 &1991646998098166
 GameObject:
   m_ObjectHideFlags: 0

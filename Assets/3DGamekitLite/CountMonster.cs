@@ -21,7 +21,7 @@ public class CountMonster : MonoBehaviour
         if (PlayerPrefs.GetInt("count") == 0) {
             Time.timeScale = 0;
             PanelInfo.SetActive(true);
-            PanelInfo.SetActive(true);
+            TriggerOut.SetActive(true);
         }
         
     }
@@ -32,5 +32,6 @@ public class CountMonster : MonoBehaviour
         PlayerPrefs.SetInt("count", count);
     }
 
+    
 
 }
