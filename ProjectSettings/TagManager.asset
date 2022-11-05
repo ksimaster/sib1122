@@ -4,50 +4,40 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - AbilityPickup
-  - Damageable
-  - Enemy
-  - Walkable
-  - Weapon
-  - Environment
-  - Fire
-  - TerrainBridge
-  - PowerUp
-  - Fruit
+  - FlythroughCam
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Walkable
+  - 
   - Water
   - UI
-  - GroundCheck
-  - Terrain
-  - FireLayer
+  - 
+  - 
+  - Skybox
   - Player
+  - PostProcessing
+  - SetDressing
+  - 
+  - 
+  - Vehicles
+  - Navmesh
+  - Environment
+  - Characters
+  - Vegetation
+  - Effects
+  - Ragdoll
+  - WaterGeometry
+  - Terrain
   - Enemy
-  - Crystal
-  - Tree
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - MinimapIcons
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - MainMenu
+  - Cameras
+  - Props
+  - Avoid
+  - CameraCollider
+  - Collider
+  - Checkpoint
+  - DoNotDraw
+  - Level
   m_SortingLayers:
   - name: Default
     uniqueID: 0
