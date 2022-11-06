@@ -84,7 +84,7 @@ namespace Gamekit3D
             // {
             //     PlayerCharacter.PlayerInstance.damageable.SetHealth(PlayerCharacter.PlayerInstance.damageable.startingHealth);
             // }
-
+            SceneManager.LoadScene("ExampleScene");
             Instance.StartCoroutine(Instance.Transition(Instance.m_CurrentZoneScene.name, Instance.m_ZoneRestartDestinationTag));
         }
 

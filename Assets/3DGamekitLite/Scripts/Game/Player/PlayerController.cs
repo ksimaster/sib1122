@@ -2,6 +2,7 @@ using UnityEngine;
 using Gamekit3D.Message;
 using System.Collections;
 using UnityEngine.XR.WSA;
+using UnityEngine.SceneManagement;
 
 namespace Gamekit3D
 {
@@ -454,7 +455,7 @@ namespace Gamekit3D
 
             if (m_CurrentStateInfo.shortNameHash == m_HashEllenDeath && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenDeath)
             {
-                emoteDeathPlayer.PlayRandomClip();
+               // emoteDeathPlayer.PlayRandomClip();
             }
 
             if (m_CurrentStateInfo.shortNameHash == m_HashEllenCombo1 && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenCombo1 ||
@@ -586,9 +587,10 @@ namespace Gamekit3D
                 yield return null;
             }
 
-            // Enable spawning.
-            EllenSpawn spawn = GetComponentInChildren<EllenSpawn>();
-            spawn.enabled = true;
+            // Enable spawning. Моё
+            //EllenSpawn spawn = GetComponentInChildren<EllenSpawn>();
+            //spawn.enabled = true;
+            SceneManager.LoadScene("ExampleScene"); //Моё
 
             // If there is a checkpoint, move Ellen to it.
             if (m_CurrentCheckpoint != null)
@@ -605,7 +607,7 @@ namespace Gamekit3D
             m_Animator.SetTrigger(m_HashRespawn);
             
             // Start the respawn graphic effects.
-            spawn.StartEffect();
+            //spawn.StartEffect(); //Моё коммит
             
             // Wait for the screen to fade in.
             // Currently it is not important to yield here but should some changes occur that require waiting until a respawn has finished this will be required.
