@@ -8,7 +8,7 @@ public class CountMonster : MonoBehaviour
     public int count;
     public Text countText;
     public GameObject PanelInfo;
-    public GameObject TriggerOut;
+   // public GameObject TriggerOut;
 
     void Start()
     {
@@ -21,7 +21,7 @@ public class CountMonster : MonoBehaviour
         if (PlayerPrefs.GetInt("count") == 0) {
             Time.timeScale = 0;
             PanelInfo.SetActive(true);
-            TriggerOut.SetActive(true);
+            //TriggerOut.SetActive(true);
         }
         
     }
@@ -31,6 +31,8 @@ public class CountMonster : MonoBehaviour
         count--;
         PlayerPrefs.SetInt("count", count);
     }
+
+    
 
     
 
