@@ -8,7 +8,8 @@ public class CountMonster : MonoBehaviour
     public int count;
     public Text countText;
     public GameObject PanelInfo;
-   // public GameObject TriggerOut;
+    // public GameObject TriggerOut;
+    private int i = 0;
 
     void Start()
     {
@@ -19,8 +20,14 @@ public class CountMonster : MonoBehaviour
     {
         countText.text = PlayerPrefs.GetInt("count").ToString();
         if (PlayerPrefs.GetInt("count") == 0) {
-            Time.timeScale = 0;
-            PanelInfo.SetActive(true);
+            if (i==0)
+            {
+                Time.timeScale = 0;
+                PanelInfo.SetActive(true);
+                i = i + 1;
+                Debug.Log(i);
+            }
+            
             //TriggerOut.SetActive(true);
         }
         
